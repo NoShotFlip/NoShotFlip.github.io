@@ -20,21 +20,53 @@
     </div>
     <div class="services-section">
         <h2>Our Services</h2>
-        <!-- Additional service list items would be added here -->
+        <div class="services-list">
+            <div class="product-item">
+                <p class="product-title">🏠 House Washing</p>
+                <p class="product-details">We remove dirt, mold, and stains from your house exterior.</p>
+            </div>
+            <div class="product-item">
+                <p class="product-title">🚗 Driveway Cleaning</p>
+                <p class="product-details">Restore your driveway’s clean look with high-pressure washing.</p>
+            </div>
+            <div class="product-item">
+                <p class="product-title">🌿 Deck & Patio Cleaning</p>
+                <p class="product-details">Get rid of algae and grime on your deck and patio areas.</p>
+            </div>
+            <div class="product-item">
+                <p class="product-title">🏡 Roof Washing</p>
+                <p class="product-details">Safely clean your roof to extend its lifespan.</p>
+            </div>
+            <div class="product-item">
+                <p class="product-title">🏢 Commercial Cleaning</p>
+                <p class="product-details">We provide power washing for commercial buildings and offices.</p>
+            </div>
+        </div>
     </div>
     <div class="gallery-section">
         <h2>Gallery</h2>
-        <!-- Images and video links would be added here -->
-    </div>
-    <div class="contact-section">
-        <h2>Contact Us</h2>
-        <p>Get a free estimate today!</p>
-        <!-- Form fields -->
+        <p>Before & After pictures and videos</p>
+        <div class="gallery-grid">
+            <img src="images/before1.jpg" alt="Before Cleaning" class="gallery-image" />
+            <img src="images/after1.jpg" alt="After Cleaning" class="gallery-image" />
+            <img src="images/before2.jpg" alt="Before Cleaning" class="gallery-image" />
+            <img src="images/after2.jpg" alt="After Cleaning" class="gallery-image" />
+            <video controls class="gallery-video">
+                <source src="videos/cleaning-demo.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
     </div>
     <div class="quote-section">
         <h2>Request a Free Quote</h2>
         <p>Fill out the form to get a custom price estimate for your cleaning service.</p>
-        <!-- Form fields -->
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <input type="text" name="address" placeholder="Your Address" required />
+            <textarea name="message" placeholder="Describe your request" required></textarea>
+            <button type="submit">Request Quote</button>
+        </form>
     </div>
 </body>
 </html>
