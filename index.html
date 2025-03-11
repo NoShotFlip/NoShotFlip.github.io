@@ -7,18 +7,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <a href="#" class="nav-link">Home</a>
-        <a href="#" class="nav-link">Services</a>
-        <a href="#" class="nav-link">Gallery</a>
-        <a href="#" class="nav-link">Quote</a>
-    </nav>
-    <div class="hero">
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Services</a>
+            <a href="#" class="nav-link">Gallery</a>
+            <a href="#" class="nav-link">Quote</a>
+        </nav>
+    </header>
+
+    <section class="hero">
         <h1>Welcome to Pro Power Wash</h1>
         <p>We restore the beauty of your home, driveway, and outdoor spaces!</p>
         <a href="#" class="cta-button">View Our Services</a>
-    </div>
-    <div class="services-section">
+    </section>
+
+    <section class="services-section">
         <h2>Our Services</h2>
         <div class="services-list">
             <div class="product-item">
@@ -42,8 +46,9 @@
                 <p class="product-details">We provide power washing for commercial buildings and offices.</p>
             </div>
         </div>
-    </div>
-    <div class="gallery-section">
+    </section>
+
+    <section class="gallery-section">
         <h2>Gallery</h2>
         <p>Before & After pictures and videos</p>
         <div class="gallery-grid">
@@ -56,8 +61,20 @@
                 Your browser does not support the video tag.
             </video>
         </div>
-    </div>
-    <div class="quote-section">
+    </section>
+
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Get a free estimate today!</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section class="quote-section">
         <h2>Request a Free Quote</h2>
         <p>Fill out the form to get a custom price estimate for your cleaning service.</p>
         <form class="contact-form">
@@ -67,6 +84,10 @@
             <textarea name="message" placeholder="Describe your request" required></textarea>
             <button type="submit">Request Quote</button>
         </form>
-    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pro Power Wash. All rights reserved.</p>
+    </footer>
 </body>
 </html>
